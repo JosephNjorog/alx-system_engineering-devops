@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -exec printf "%s\n" '{}' \; -o -type f -empty -exec printf "%s\n" '{}' \;
+find . -type d -empty -o -type f -empty | sed 's|^./||'
