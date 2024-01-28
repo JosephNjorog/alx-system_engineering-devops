@@ -1,4 +1,5 @@
 
+![C6mO7b3](https://github.com/JosephNjorog/alx-system_engineering-devops/assets/141281465/2b08df71-2926-4e82-a3b6-17e46c92bcc2)
 
 0x05. Processes and signals
 DevOpsShellBashSyscallScripting
