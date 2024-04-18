@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# This is a bash scirpt that configures a new server with a lot of things :)
+
+sudo apt-get update -y
+sudo apt-get nginx -y
+
+#sudo ufw allow 'Nginx HTTP'
+
+# INDEX FILE
+sudo touch /var/www/html/index.html
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+FILEPATH=/etc/nginx/sites-enabled/default
+
+# REDIRECTION AND SERVER HEADER
+CONFIG="server_name _;\n\tadd_header X-Served-By \$hostname;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com permanent;"
+
+sudo sed -i "s/server_name _;/$CONFIG/" "$FILEPATH"
+
+# 404 Page
+sudo touch /var/www/html/404.html
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+
+CODE404="listen 80 default_server;\n\terror_page 404 \/404.html; \n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+
+sudo sed -i "s/listen 80 default_server;/$CODE404/" "$FILEPATH"
+
+sudo service nginx restart
