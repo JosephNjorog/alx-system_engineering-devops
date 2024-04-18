@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This is a script that creates 301 redirection
+# File In a web sever.
+
+sudo apt-get update
+sudo apt-get install nginx -y
+
+# Writing or overwriting the default index.html file
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+# Storing the string to write in REDIRECTIONZ Variable
+REDIRECTIONZ="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com permanent;"
+
+# Serching for server_name and writing the value of REDIRECTIONZ
+sudo sed -i "s/server_name _;/$REDIRECTIONZ/" /etc/nginx/sites-enabled/default
+
+sudo service nginx restart
