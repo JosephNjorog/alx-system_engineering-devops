@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A script that makes sure when nginx status is checked it returns (Not Running).
+sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+sudo pkill -o nginx
