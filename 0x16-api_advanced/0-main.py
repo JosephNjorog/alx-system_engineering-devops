@@ -3,7 +3,7 @@
 0-main
 """
 import sys
-from 0-subs import number_of_subscribers
+from subs import number_of_subscribers
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
