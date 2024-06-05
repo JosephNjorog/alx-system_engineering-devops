@@ -23,6 +23,7 @@ Scripting
 Debugging
  Weight: 1
  Project over - took place from Apr 2, 2024 6:00 AM to Apr 6, 2024 6:00 AM
+
  An auto review will be launched at the deadline
 In a nutshell…
 Auto QA review: 0.0/3 mandatory & 0.0/3 optional
