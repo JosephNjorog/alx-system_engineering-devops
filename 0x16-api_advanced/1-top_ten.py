@@ -1,44 +1,30 @@
 #!/usr/bin/python3
-"""
-This script defines a function to list first 10 hot posts for a subreddit
-"""
+"""Function to query a list of all hot posts on a given Reddit subreddit."""
+import requests
 
 
-def top_ten(subreddit):
-    """
-    Prints titles of first 10 hot posts for given subreddit
-    using the reddit API
+def recurse(subreddit, hot_list=[], after="", count=0):
+    """Returns a list of titles of all hot posts on a given subreddit."""
+    url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    headers = {
+        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
+    }
+    params = {
+        "after": after,
+        "count": count,
+        "limit": 100
+    }
+    response = requests.get(url, headers=headers, params=params,
+                            allow_redirects=False)
+    if response.status_code == 404:
+        return None
 
-    Example:
-    >>> top_ten(programming)
-    How a 64k intro is made
-    HTTPS on Stack Overflow: The End of a Long Road
-    ...
+    results = response.json().get("data")
+    after = results.get("after")
+    count += results.get("dist")
+    for c in results.get("children"):
+        hot_list.append(c.get("data").get("title"))
 
-    Args:
-    subreddit (str): The subreddit to be searched for
-
-    Returns:
-    int: 1 valid subreddit or 0 for invalid subreddit
-
-    NOTE:
-    The function prints the list of hot posts internally
-    """
-    import requests
-
-    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    headers = {"user-agent": "Fake-Agent"}
-    response = requests.get(url, headers=headers, allow_redirects=False)
-    if response.status_code == 200:
-        counter = 0
-        for post in response.json().get('data').get('children'):
-            print(post.get('data').get('title'))
-            counter += 1
-            if counter >= 10:
-                break
-        return_status = 1
-    else:
-        print("None")
-        return_status = 0
-
-    return return_status
+    if after is not None:
+        return recurse(subreddit, hot_list, after, count)
+    return hot_list
