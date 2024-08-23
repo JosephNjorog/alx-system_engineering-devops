@@ -1,0 +1,304 @@
+|-- 0x00-shell_basics
+    |-- 0-current_working_directory
+    |-- 1-listit
+    |-- 10-back
+    |-- 100-lets_move
+    |-- 101-clean_emacs
+    |-- 102-tree
+    |-- 103-commas
+    |-- 11-lists
+    |-- 12-file_type
+    |-- 13-symbolic_link
+    |-- 14-copy_html
+    |-- 2-bring_me_home
+    |-- 3-listfiles
+    |-- 4-listmorefiles
+    |-- 5-listfilesdigitonly
+    |-- 6-firstdirectory
+    |-- 7-movethatfile
+    |-- 8-firstdelete
+    |-- 9-firstdirdeletion
+    |-- README.md
+    |-- school.mgc
+|-- 0x01-shell_permissions
+    |-- 0-iam_betty
+    |-- 1-who_am_i
+    |-- 10-mirror_permissions
+    |-- 100-change_owner_and_group
+    |-- 101-symbolic_link_permissions
+    |-- 102-if_only
+    |-- 103-Star_Wars
+    |-- 11-directories_permissions
+    |-- 12-directory_permissions
+    |-- 13-change_group
+    |-- 2-groups
+    |-- 3-new_owner
+    |-- 4-empty
+    |-- 5-execute
+    |-- 6-multiple_permissions
+    |-- 7-everybody
+    |-- 8-James_Bond
+    |-- 9-John_Doe
+    |-- README.md
+|-- 0x02-shell_redirections
+    |-- .2-hellofile.swp
+    |-- 0-hello_world
+    |-- 1-confused_smiley
+    |-- 10-no_more_js
+    |-- 100-empty_casks
+    |-- 102-acrostic
+    |-- 103-the_biggest_fan
+    |-- 11-directories
+    |-- 12-newest_files
+    |-- 13-unique
+    |-- 14-findthatword
+    |-- 15-countthatword
+    |-- 16-whatsnext
+    |-- 17-hidethisword
+    |-- 18-letteronly
+    |-- 19-AZ
+    |-- 2-hellofile
+    |-- 20-hiago
+    |-- 21-reverse
+    |-- 22-users_and_homes
+    |-- 3-twofiles
+    |-- 4-lastlines
+    |-- 5-firstlines
+    |-- 6-third_line
+    |-- 7-file
+    |-- 8-cwd_state
+    |-- 9-duplicate_last_line
+    |-- README.md
+|-- 0x03-shell_variables_expansions
+    |-- .12-combinations.swp
+    |-- 0-alias
+    |-- 1-hello_you
+    |-- 10-love_exponent_breath
+    |-- 100-decimal_to_hexadecimal
+    |-- 101-rot13
+    |-- 102-odd
+    |-- 11-binary_to_decimal
+    |-- 12-combinations
+    |-- 13-print_float
+    |-- 2-path
+    |-- 3-paths
+    |-- 4-global_variables
+    |-- 5-local_variables
+    |-- 6-create_local_variable
+    |-- 7-create_global_variable
+    |-- 8-true_knowledge
+    |-- 9-divide_and_rule
+    |-- README.md
+|-- 0x04-loops_conditions_and_parsing
+    |-- 0-RSA_public_key.pub
+    |-- 1-for_best_school
+    |-- 10-fizzbuzz
+    |-- 100-read_and_cut
+    |-- 101-tell_the_story_of_passwd
+    |-- 102-lets_parse_apache_logs
+    |-- 103-dig_the-data
+    |-- 2-while_best_school
+    |-- 3-until_best_school
+    |-- 4-if_9_say_hi
+    |-- 5-4_bad_luck_8_is_your_chance
+    |-- 6-superstitious_numbers
+    |-- 7-clock
+    |-- 8-for_ls
+    |-- 9-to_file_or_not_to_file
+    |-- README.md
+|-- 0x05-processes_and_signals
+    |-- .1-list_your_processes.swp
+    |-- .5-dont_stop_me_now.swp
+    |-- 0-what-is-my-pid
+    |-- 1-list_your_processes
+    |-- 100-process_and_pid_file
+    |-- 101-manage_my_process
+    |-- 102-zombie.c
+    |-- 2-show_your_bash_pid
+    |-- 3-show_your_bash_pid_made_easy
+    |-- 4-to_infinity_and_beyond
+    |-- 5-dont_stop_me_now
+    |-- 6-stop_me_if_you_can
+    |-- 67-stop_me_if_you_can
+    |-- 7-highlander
+    |-- 8-beheaded_process
+    |-- README.md
+    |-- manage_my_process
+    |-- zombie
+|-- 0x06-regular_expressions
+    |-- 0-simply_match_school.rb
+    |-- 1-repetition_token_0.rb
+    |-- 100-textme.rb
+    |-- 2-repetition_token_1.rb
+    |-- 3-repetition_token_2.rb
+    |-- 4-repetition_token_3.rb
+    |-- 5-beginning_and_end.rb
+    |-- 6-phone_number.rb
+    |-- 7-OMG_WHY_ARE_YOU_SHOUTING.rb
+    |-- README.md
+|-- 0x07-networking_basics
+    |-- 0-OSI_model
+    |-- 1-types_of_network
+    |-- 2-MAC_and_IP_address
+    |-- 3-UDP_and_TCP
+    |-- 4-TCP_and_UDP_ports
+    |-- 5-is_the_host_on_the_network
+    |-- README.md
+|-- 0x08-networking_basics_2
+    |-- 0-change_your_home_IP
+    |-- 1-show_attached_IPs
+    |-- 100-port_listening_on_localhost
+    |-- README.md
+|-- 0x09-web_infrastructure_design
+    |-- 0-Simple web stack.jpg
+    |-- 0-simple_web_stack
+    |-- 1-Distributed web infrastructure.jpg
+    |-- 1-distributed_web_infrastructure
+    |-- 2-Secured and monitored web infrastructure.jpg
+    |-- 2-secured_and_monitored_web_infrastructure
+    |-- 3-Scale up.jpg
+    |-- 3-scale_up
+    |-- AUTHORS
+    |-- README.md
+|-- 0x0A-configuration_management
+    |-- 0-create_a_file.pp
+    |-- 1-install_a_package.pp
+    |-- 2-execute_a_command.pp
+|-- 0x0B-ssh
+    |-- 0-use_a_private_key.txt
+    |-- 1-create_ssh_key_pair.txt
+    |-- 100-puppet_ssh_config.pp
+    |-- 2-ssh_config.txt
+    |-- lb-01.txt
+    |-- web-01.txt
+    |-- web-02.txt
+|-- 0x0C-web_server
+    |-- 0-transfer_file (1).txt
+    |-- 1-install_nginx_web_server.txt
+    |-- 2-setup_a_domain_name.txt
+    |-- 3-redirection.txt
+    |-- 4-not_found_page_404.txt
+    |-- 7-puppet_install_nginx_web_server.pp
+|-- 0x0D-web_stack_debugging_0
+    |-- 0-give_me_a_page.txt
+    |-- get-docker.sh
+|-- 0x0E-web_stack_debugging_1
+    |-- .0-nginx_likes_port_80.swo
+    |-- .0-nginx_likes_port_80.swp
+    |-- 0-nginx_likes_port_80
+    |-- 0-nginx_likes_port_80.txt
+    |-- 1
+    |-- 1-debugging_made_short
+    |-- 1-debugging_made_short.txt
+    |-- README.md
+|-- 0x0F-load_balancer
+    |-- 0-custom_http_response_header.txt
+    |-- 0-transfer_file (1).txt
+    |-- 1-install_load_balancer.txt
+    |-- 2-puppet_custom_http_response_header.pp
+|-- 0x10-https_ssl
+    |-- 0-world_wide_web
+    |-- 1-haproxy_ssl_termination
+    |-- 100-redirect_http_to_https
+    |-- README.md
+    |-- transfer-file
+|-- 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter
+    |-- 0-blog_post
+    |-- 1-what_happen_when_diagram
+    |-- 2-contribution-to_what-happens-when_github_answer
+    |-- README.md
+|-- 0x12-web_stack_debugging_2
+    |-- 0-iamsomeoneelse
+    |-- 1-run_nginx_as_nginx
+    |-- 100-fix_in_7_lines_or_less
+    |-- README.md
+|-- 0x13-firewall
+    |-- 0-block_all_incoming_traffic_but
+    |-- 100-port_forwarding
+    |-- README.md
+|-- 0x14-mysql
+    |-- 4-mysql_configuration_primary
+    |-- 4-mysql_configuration_replica
+    |-- 5-mysql_backup
+    |-- README.md
+|-- 0x15-api
+    |-- 0-gather_data_from_an_API.py
+    |-- 1-export_to_CSV.py
+    |-- 2-export_to_JSON.py
+    |-- 2.csv
+    |-- 2.json
+    |-- 3-dictionary_of_list_of_dictionaries.py
+    |-- README.md
+    |-- todo_all_employees.json
+|-- 0x16-api_advanced
+    |-- 0-main.py
+    |-- 0-subs.py
+    |-- 1-main.py
+    |-- 1-top_ten.py
+    |-- 100-count.py
+    |-- 100-main.py
+    |-- 2-main.py
+    |-- 2-recurse.py
+    |-- README.md
+    |-- __pycache__
+        |-- 0-subs.cpython-310.pyc
+        |-- 0-subs.cpython-38.pyc
+        |-- 1-top_ten.cpython-310.pyc
+        |-- 1-top_ten.cpython-38.pyc
+        |-- 2-recurse.cpython-310.pyc
+        |-- 2-recurse.cpython-38.pyc
+    |-- tests
+        |-- 0-main.py
+        |-- 1-main.py
+        |-- 2-main.py
+|-- 0x17-web_stack_debugging_3
+    |-- 0-strace_is_your_friend.pp
+    |-- README.md
+|-- 0x18-webstack_monitoring
+    |-- 2-setup_datadog
+    |-- README.md
+    |-- get_dashboard_id_script
+|-- 0x19-postmortem
+    |-- README.md
+|-- 0x1A-application_server
+    |-- 2-app_server-nginx_config.txt
+    |-- 3-app_server-nginx_config.txt
+    |-- 4-app_server-nginx_config.txt
+    |-- 5-app_server-nginx_config.txt
+    |-- README.md
+    |-- gunicorn.service
+|-- 0x1B-web_stack_debugging_4
+    |-- 0-the_sky_is_the_limit_not.pp
+    |-- 1-user_limit.pp
+    |-- README.md
+|-- README.md
+|-- command_line_for_the_win
+    |-- 0-first_9_tasks.png
+        |-- Copy File-screenshot.png
+        |-- Create Directory-screenshot2.png
+        |-- CreateFile-screenshot3.png
+        |-- Hello world-screenshot4.png
+        |-- ListFiles-screenshot5.png
+        |-- Move File-screenshot6.png
+        |-- PrintFileContentss-screenshot8.png
+        |-- PrintLastFiveLinesofFile-9.png
+    |-- 1-next_9_tasks.png
+        |-- CountFilesInteger-screenshot1.png
+        |-- Delete files-screenshot2.png
+        |-- DeleteFilesWithNameExtension-screenshot3.png
+        |-- ExtractIPadressesFromFile.PNG-screenshot4.png
+        |-- PrintFileWithString-screenshot6.png
+        |-- PrintFilewithIntegerString-screenshot7.png
+        |-- PrintFilewithIntegerString-screenshot8.png
+        |-- Symbolink link to file-screenshot9.png
+    |-- 2-next_9_tasks.png
+        |-- Count The Strings-screenshot1.png
+        |-- Simple Sort-screenshot2.png
+        |-- Split on a char-screenshot3.png
+        |-- generate a number sequance-screenshot4.png
+        |-- only the file names-screenshot5.png
+        |-- remove extension-screenshot6.png
+        |-- replace spaces-screenshot7.png
+        |-- replace text in file-screenshot8.png
+        |-- sum the numbers-screenshot9.png
+    |-- README.md
